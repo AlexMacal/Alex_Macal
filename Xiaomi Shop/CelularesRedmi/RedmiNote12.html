@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Redmi Note 12 | Xiaomi México</title>
+ <style>
+        body {
+            background-image: url("../Imagenes/RedmiNote12.png");
+            
+            background-position: center center;
+            
+            background-repeat: no-repeat;
+            
+            background-attachment: fixed;
+            
+            background-size: cover;
+            
+            background-color: rgb(39, 39, 39);
+        	}
+    </style>
+
+<style>
+	button {
+		background-color: rgb(16, 58, 169);
+		color: rgb(0, 0, 0);
+		font-family: Verdana;
+		font-size: 17px;
+		padding: 5px 15px;
+		border-radius: 10px;
+		}
+	</style>
+
+    <style>
+    	}
+.left {
+  display: block;
+  margin-left: 0;
+  margin-right: auto;
+  width: 50%;
+}
+    </style>
+
+    <style>
+    	h1{
+    		color: rgb(29, 231, 190);
+    		font-size: 25px;
+    	}
+    </style>
+
+	<style>
+		body{
+		font-family: Verdana;
+		color: white;
+		font-size: 15px;
+		}
+	</style>
+</head>
+<body>
+	<h1>Redmi Note 12 | Especificaciones</h1>
+		<script type = "text/JavaScript">
+
+			var informacion = [
+
+{
+	pantalla:"<br>Pantalla DotDisplay FHD+ de 6,79'2460 x 1080, 396 ppi<br>Relación de constraste: 1,500:1<br>				Gama de colores: 70% NTSC<br>Brillo: hasta 550 nits (HBM)<br>Pantalla AdaptyveSync: 36 Hz/48 Hz/60 Hz/90 Hz<br>Compatible con el modo de lectura 3.0<br>Certificación SGS de luz azul de baja intensidad<hr>",
+	diseño:"<br>Altura: 168, 60 mm<br>Ancho: 76,28 mm<br>Grosor: 8,17 mm<br>Peso: 198,5 g<br>Colores: Negro Ocaso, Azul Cielo, Plata Polar<hr>",
+	camaratrasera:"<br>Cámara triple de 50 MP + 8 MP + 2 MP<br>Cámara principal de 50 MPƒ/1.8<br>Cámara ultra gran angular de 8 MP<br>Campo de visión de 120°ƒ/2.2<br>Cámara macro de 2 MP ƒ/2.4<br>Grabación de video de la cámara trasera 1080p de 1920 x 1080 a 30 fps 720p de 1280 x  720 a 30 fps<hr>",
+	procesador:"<br>MediaTek Helio G88<br>Proceso de fabricación de 12 nm<br>2 Arm Cortex-A75 a 2GHz<br>GPU: Arm Mali G52<hr>",
+	memoria:"<br>4 GB + 128 GB | 8 GB + 128 GB | 8 GB + 256 GB<br>LPDDR4X y eMMC 5.1<br>Con almacenamiento expandible: hasta 1TB (esto depende si lo quieren poner o no los chinos)<hr>",
+	bateria:"<br>5,000 mAh<br>Carga rapida de 18W (que chafa)<br>USB-C"
+},  
+
+
+];
+
+for(var i = 0;i< informacion.length;i++)
+
+{
+
+	var informaciones = informacion[i];
+
+	var componente = document.createElement("div");
+	componente.innerHTML = "<p><b>Pantalla:</b> " + informaciones.pantalla + "</p>";
+	componente.innerHTML += "<p><b>Diseño:</b> " + informaciones.diseño + "</p>";
+	componente.innerHTML += "<p><b>Camara trasera:</b> " + informaciones.camaratrasera + "</p>";
+	componente.innerHTML += "<p><b>Procesador:</b> " + informaciones.procesador + "</p>";
+	componente.innerHTML += "<p><b>Memoria:</b> " + informaciones.memoria + "</p>";
+	componente.innerHTML += "<p><b>Bateria:</b> " + informaciones.bateria + "</p>";
+
+	document.body.appendChild(componente);
+	
+}
+</script>
+<button
+onclick="location.href='../index2.html'">Pagina principal</button>
+
+</body>
+</html>

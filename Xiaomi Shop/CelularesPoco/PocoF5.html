@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Poco F5 | Xiaomi México</title>
+ <style>
+        body {
+            background-image: url("../Imagenes/PocoF5.png");
+            
+            background-position: center center;
+            
+            background-repeat: no-repeat;
+            
+            background-attachment: fixed;
+            
+            background-size: cover;
+            
+            background-color: rgb(39, 39, 39);
+        	}
+    </style>
+
+<style>
+	button {
+		background-color: rgb(16, 58, 169);
+		color: rgb(0, 0, 0);
+		font-family: Verdana;
+		font-size: 17px;
+		padding: 5px 15px;
+		border-radius: 10px;
+		}
+	</style>
+
+    <style>
+    	}
+.left {
+  display: block;
+  margin-left: 0;
+  margin-right: auto;
+  width: 50%;
+}
+    </style>
+
+    <style>
+    	h1{
+    		color: rgb(29, 231, 190);
+    		font-size: 25px;
+    	}
+    </style>
+
+	<style>
+		body{
+		font-family: Verdana;
+		color: white;
+		font-size: 15px;
+		}
+	</style>
+</head>
+<body>
+	<h1>Poco F5 | Especificaciones</h1>
+		<script type = "text/JavaScript">
+
+			var informacion = [
+
+{
+	pantalla:"<br>Flow AMOLED DotDisplay FHD+ de 6,67'<br>Frecuencia de actualización: Hasta 120Hz<br>Brillo: 500 nits (típ), 1000 nits (máx.)<br>Resolución: 2400 x 1080<br>Visualización con luz solar<br>Modo de lectura<br>Pantalla HDR adaptable<br>68 millones de colores<hr>",
+	diseño:"<br>Altura: 161,11mm<br>Ancho: 74,95mm<br>Grosor: 74,95mm<br>Peso: 181g<br>Colores: Negro, Azul y Blanco<hr>",
+	camaratrasera:"<br>Cámara ultra gran angular de 64MP<br>Tamaño del sensor de 1/1,52'<br>Cámara ultra gran angular de 8MP<br>f/2,2<br>Campo de visión de 119°<hr>",
+	procesador:"<br>Snapdragon 7+ Gen 2<br>CPU: 1 Cortex-X2, hasta 2,91 GHz; 3 A710, hasta 2,49 GHz; 4 A510, hasta 1,8 GHz<br>GPU: Qualcomm Adreno<hr>",
+	memoria:"<br>8+2568 | 12+256GB<br>LPDDR5 + UFS3.1<hr>",
+	bateria:"<br>5,000 mAh<br>Carga rapida de 67W<br>USB-C"
+},  
+
+
+];
+
+for(var i = 0;i< informacion.length;i++)
+
+{
+
+	var informaciones = informacion[i];
+
+	var componente = document.createElement("div");
+	componente.innerHTML = "<p><b>Pantalla:</b> " + informaciones.pantalla + "</p>";
+	componente.innerHTML += "<p><b>Diseño:</b> " + informaciones.diseño + "</p>";
+	componente.innerHTML += "<p><b>Camara trasera:</b> " + informaciones.camaratrasera + "</p>";
+	componente.innerHTML += "<p><b>Procesador:</b> " + informaciones.procesador + "</p>";
+	componente.innerHTML += "<p><b>Memoria:</b> " + informaciones.memoria + "</p>";
+	componente.innerHTML += "<p><b>Bateria:</b> " + informaciones.bateria + "</p>";
+
+	document.body.appendChild(componente);
+	
+}
+</script>
+<button
+onclick="location.href='../index2.html'">Pagina principal</button>
+
+</body>
+</html>

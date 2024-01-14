@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Redmi Note 12S | Xiaomi México</title>
+ <style>
+        body {
+            background-image: url("../Imagenes/RedmiNote12S.png");
+            
+            background-position: center center;
+            
+            background-repeat: no-repeat;
+            
+            background-attachment: fixed;
+            
+            background-size: cover;
+            
+            background-color: rgb(39, 39, 39);
+        	}
+    </style>
+
+<style>
+	button {
+		background-color: rgb(16, 58, 169);
+		color: rgb(0, 0, 0);
+		font-family: Verdana;
+		font-size: 17px;
+		padding: 5px 15px;
+		border-radius: 10px;
+		}
+	</style>
+
+    <style>
+    	}
+.left {
+  display: block;
+  margin-left: 0;
+  margin-right: auto;
+  width: 50%;
+}
+    </style>
+
+    <style>
+    	h1{
+    		color: rgb(29, 231, 190);
+    		font-size: 25px;
+    	}
+    </style>
+
+	<style>
+		body{
+		font-family: Verdana;
+		color: white;
+		font-size: 15px;
+		}
+	</style>
+</head>
+<body>
+	<h1>Redmi Note 12S | Especificaciones</h1>
+		<script type = "text/JavaScript">
+
+			var informacion = [
+
+{
+	pantalla:"<br>Pantalla AMOLED DotDisplay FHD+ de 6.43<br>		Tasa de actualización: hasta 90Hz<br>				Brillo HBM de 700nits, brillo máximo de 1000nits<br>Relación de contraste: 4500000:1<br>			Resolución: 2400x1080<br>							Amplia gama de colores DCI-P3<hr>",
+	diseño:"<br>159.87*73.87*8.09mm<br>176g<br>Azul Hielo, Verde Perlado, Negro Ónix<hr>",
+	camaratrasera:"<br>Cámara gran angular de 108MP<br>0.7μm, agrupamiento 9 en 1 en un gran pixel de 2.1μm<br>Tamaño del sensor de 1/1.52'<hr>",
+	procesador:"<br>Mediatek Helio G96<br>CPU: CPU de ocho núcleos, de hasta 2.05u00a0GHz<hr>",
+	memoria:"<br>6+128/8+256GB<br>LPDDR4X + UFS2.2<hr>",
+	bateria:"<br>5,000 mAh<br>Carga rapida de 33W, USB-C"
+},  
+
+
+];
+
+for(var i = 0;i< informacion.length;i++)
+
+{
+
+	var informaciones = informacion[i];
+
+	var componente = document.createElement("div");
+	componente.innerHTML = "<p><b>Pantalla:</b> " + informaciones.pantalla + "</p>";
+	componente.innerHTML += "<p><b>Diseño:</b> " + informaciones.diseño + "</p>";
+	componente.innerHTML += "<p><b>Camara trasera:</b> " + informaciones.camaratrasera + "</p>";
+	componente.innerHTML += "<p><b>Procesador:</b> " + informaciones.procesador + "</p>";
+	componente.innerHTML += "<p><b>Memoria:</b> " + informaciones.memoria + "</p>";
+	componente.innerHTML += "<p><b>Bateria:</b> " + informaciones.bateria + "</p>";
+
+	document.body.appendChild(componente);
+	
+}
+</script>
+<button
+onclick="location.href='../index2.html'">Pagina principal</button>
+
+</body>
+</html>
